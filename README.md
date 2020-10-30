@@ -21,6 +21,7 @@ Example:
 
 ## Usage Example
 
+Exposed port for prometheus: 9125
 Move binary to `/usr/bin/` and create config file at `/etc/3cx_exporter/config.json`.
 Create following systemd service unit at /etc/systemd/system/3cx_exporter.service:
 
